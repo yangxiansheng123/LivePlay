@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f5be23</color>
+    <color name="colorPrimaryDark">#f5be23</color>
+    <color name="colorAccent">#f5be23</color>
+    <color name="toolbar_bg">#f5be23</color>
+    <color name="background_yellow">#fbd415</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    
+    <!-- 设置字体颜色-->
+
+    <color name="text_color_000000">#000000</color>
+    <color name="text_color_f4f4f4">#f4f4f4</color>
+    <color name="text_color_888888">#888888</color>
+    <color name="text_color_4876b3">#4876b3</color>
+    <color name="text_color_aeaeae">#aeaeae</color>
+    <color name="text_color_333333">#333333</color>
+    <color name="text_color_838383">#838383</color>
+    <color name="text_color_221814">#221814</color>
+
+
+    <!-- 设置view_line颜色-->
+    <color name="view_line">#ededed</color>
+    <color name="view_line_f0f0ee">#f0f0ee</color>
+    <color name="height_line_e7b811">#e7b811</color>
+    <!-- 上啦加载-->
+    <color name="color_7a">#7a7a7a</color>
+    <color name="color_ab">#ababab</color>
+</resources>

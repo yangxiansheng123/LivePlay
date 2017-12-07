@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_below="@+id/ll_head"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/img_liveBroadPng"
+                android:layout_width="130dp"
+                android:layout_height="85dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/persona_bg"
+                app:riv_corner_radius="5dp" />
+
+            <TextView
+                android:id="@+id/tv_liveBoradState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/solid_rectangle_shape_red_right_topbtoom"
+                android:paddingBottom="2dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="2dp"
+                android:text="即将开始"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/img_liveBoradState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/livepage_foreshow" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_instName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:ellipsize="end"
+                    android:maxLength="8"
+                    android:text="name"
+                    android:textColor="@color/text_color_333333"
+                    android:textSize="@dimen/text_size_15" 
+                    android:layout_marginRight="5dp"/>
+
+                <TextView
+                    android:id="@+id/tv_beginToShow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="@dimen/paddingRight_10"
+                    android:background="@drawable/solid_rectangle_shape_theme"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="4dp"
+                    android:paddingTop="3dp"
+                    android:text="开播"
+                    android:textColor="@color/text_color_000000"
+                    android:textSize="@dimen/text_size_16"
+                   android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop_5"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_courseType0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/solid_rectangle_shape_gray_2radius"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="4dp"
+                    android:paddingTop="3dp"
+                    android:text="青子"
+                    android:textColor="@color/text_color_838383"
+                    android:textSize="@dimen/text_size_11" />
+
+                <TextView
+                    android:id="@+id/tv_courseType1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/solid_rectangle_shape_gray_2radius"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="4dp"
+                    android:paddingTop="3dp"
+                    android:text="青子"
+                    android:textColor="@color/text_color_838383"
+                    android:textSize="@dimen/text_size_11" />
+
+                <TextView
+                    android:id="@+id/tv_courseType2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/solid_rectangle_shape_gray_2radius"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="4dp"
+                    android:paddingTop="3dp"
+                    android:text="青子"
+                    android:textColor="@color/text_color_838383"
+                    android:textSize="@dimen/text_size_11" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_liveBroTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop_5"
+                android:text="TextView"
+                android:textColor="@color/text_color_888888"
+                android:textSize="@dimen/text_size_11" />
+
+            <TextView
+                android:id="@+id/tv_joinPnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop_5"
+                android:text="TextView"
+                android:textColor="@color/text_color_888888"
+                android:textSize="@dimen/text_size_11" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/marginLeft_15"
+        android:background="@color/view_line_f0f0ee" />
+</LinearLayout>
